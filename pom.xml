@@ -16,5 +16,20 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
+	
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://13.59.204.188:8081/repository/kilimanjaro-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.59.204.188:8081/repository/kilimanjaro-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   
 </project>
