@@ -11,10 +11,8 @@
     <module>MavenEnterpriseApp-ear</module>
     <module>MavenEnterpriseApp-web</module>
   </modules>
-  <!--just checking if my webhook works -->
   <properties>
-	<!-- versions -->
-	<sonar.host.urlhttp://3.142.131.183:9000/></sonar.host.url>
+	<sonar.host.url>http://3.142.131.183:9000/</sonar.host.url>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
